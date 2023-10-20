@@ -1,0 +1,117 @@
+.image-fluid{
+    width: 180px;
+    max-width: 400px;
+    height: 48px; 
+    margin-left:150px ;
+    }
+    .nav-link{
+        font-size: 20px;
+        margin-left: 20px ;
+      
+    }  /* Estilos personalizados */
+    .container {
+      margin-top: 45px;
+     justify-content: center;
+    }
+    
+    .image-container {
+      max-width: 100%;
+      justify-content: center;
+    }
+    
+    .image {
+      max-width: 100%;
+      height: auto;
+      justify-content: center;
+    }
+    
+    .text {
+      margin-top: 150px;
+    }
+    .navbar-nav{
+      margin-left:500px;
+    }
+    .section-padding{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    
+    .card {
+      border: none;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      color: #00ff91;
+      background-color: #dcebca;
+     
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .footer {
+      background-color: #dcebca;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .footer-logo {
+      max-width: 250px;
+    
+    } 
+    
+    /* Estilos adicionais para tornar a imagem e o texto responsivos */
+    @media (max-width: 768px) {
+      .image-container {
+        text-align: center;
+      }
+    
+      .text {
+        text-align: center;
+      }
+    }
+    
+    #noticias{
+      background-color: #acc48d;
+    }
+    
+    #login{
+      color:#299465;
+    }
+    .navbar-nav .nav-link{
+    font-weight:600;
+    color: #606f49;
+    }
+    #section5{
+      padding-bottom: 30px;
+    }
+    @media (max-width: 991.98px) {
+      #section5 .carousel-item img{
+          height: 250px;
+      }
+    }
+     #section5 .carousel-item img{
+          height: 900px;
+      }
+    
+    .carousel-item img{
+      height: 700px;
+      width: 400px;
+      background-size: cover;
+    }
+    
+    
+    @media (max-width: 991.98px) {
+      #section5 .carousel-item img{
+          height: 250px;
+          width: 300px;
+      }
+    }
+    
+    
+    
+    @media (max-width: 991.98px) {
+      .carouselExampleCaptions{
+          width: 300px;
+      }
+    }
+    
+    
